@@ -173,13 +173,13 @@ if __name__ == '__main__':
 # Unit Tests
 class TestBuildDorks(unittest.TestCase):
     def test_pattern_generation(self):
-        domain = "example.com"
+        domain = "shashank.com"
         dorks = build_dorks(domain)
         self.assertTrue(any("site:example.com" in d for d in dorks))
         self.assertEqual(len(dorks), 31)
 
     def test_custom_domain(self):
-        domain = "airindia.com"
+        domain = "shashank.com"
         dorks = build_dorks(domain)
         self.assertTrue(all(domain in d for d in dorks))
         self.assertEqual(len(dorks), 31)
