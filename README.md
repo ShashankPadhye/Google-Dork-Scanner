@@ -1,5 +1,5 @@
 # Google-Dork-Scanner
-A Python CLI tool that automates Google Dorking using SerpAPI to discover publicly accessible endpoints, sensitive files, and misconfigurations on any given domain
+A Python CLI tool that automates Google Dorking using SerpAPI to discover publicly accessible endpoints, sensitive files, and misconfigurations on any given domai
 
 Features
 Predefined Dork Patterns: 31 common dork queries covering redirects, index listings, sensitive files, login portals, error messages, version control leaks, and more.
