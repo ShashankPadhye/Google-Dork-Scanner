@@ -25,13 +25,13 @@ Flag                 Description                                           Requi
 
 # Examples
 1) Basic scan (using env var key): 
-python google_dorking.py -d airindia.com -k SERPAPI_KEY
+python google_dorking.py -d xyz.com -k SERPAPI_KEY
 
 2) Specify number of results:
-python google_dorking.py -d airindia.com -n 20 -k SERPAPI_KEY
+python google_dorking.py -d xyz.com -n 20 -k SERPAPI_KEY
 
 3) Provide key on CLI:
-python google_dorking.py -d airindia.com -k YOUR_SERPAPI_KEY
+python google_dorking.py -d xyz.com -k YOUR_SERPAPI_KEY
 
 
 
